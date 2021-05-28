@@ -246,5 +246,8 @@ body {
   justify-content: space-between;
   padding-top: 20px;
 }
+.container-element .contet .container .container-body .container-body .card {
+  background-color: #44D8E7;
+}
 
 /*# sourceMappingURL=main.css.map */
