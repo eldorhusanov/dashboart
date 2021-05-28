@@ -278,10 +278,13 @@ body{
           }
         }
         .container-body {
+          display: flex;
           .card {
+
+
             background-color: #44D8E7;
             .card-header {
-
+              width: 30%;
             }
           }
         }

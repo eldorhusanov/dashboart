@@ -246,8 +246,14 @@ body {
   justify-content: space-between;
   padding-top: 20px;
 }
+.container-element .contet .container .container-body .container-body {
+  display: flex;
+}
 .container-element .contet .container .container-body .container-body .card {
   background-color: #44D8E7;
+}
+.container-element .contet .container .container-body .container-body .card .card-header {
+  width: 30%;
 }
 
 /*# sourceMappingURL=main.css.map */
