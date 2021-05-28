@@ -251,6 +251,7 @@ body {
   justify-content: space-between;
 }
 .container-element .contet .container .container-body .card-grup .card {
+  width: 30%;
   background-color: #44D8E7;
 }
 .container-element .contet .container .container-body .card-grup .card .card-header {
@@ -276,6 +277,15 @@ body {
 }
 .container-element .contet .container .container-body .card-grup .card .card-body {
   display: flex;
+  justify-content: space-between;
+}
+.container-element .contet .container .container-body .card-grup .card .card-body .body-grup {
+  display: flex;
+  align-items: center;
+}
+.container-element .contet .container .container-body .card-grup .card .card-body .card-img img {
+  width: 80%;
+  transform: translateX(30px);
 }
 
 /*# sourceMappingURL=main.css.map */
