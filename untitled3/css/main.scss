@@ -204,10 +204,10 @@ body{
           margin-bottom: 0;
           padding-inline-start: 0;
           list-style-type: none;
-           .list-grup:hover{
-             background: linear-gradient(100deg, #FDD8E4 40%, #FCEDF3 70%);
-             border-left: 3px solid red !important;
-           }
+          .list-grup:hover{
+            background: linear-gradient(100deg, #FDD8E4 40%, #FCEDF3 70%);
+            border-left: 3px solid red !important;
+          }
           .list-grup{
             border-left: solid 3px transparent;
             display: flex;
