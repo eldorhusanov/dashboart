@@ -291,6 +291,7 @@ body{
           display: flex;
           justify-content: space-between;
           .card {
+            width: 30%;
             background-color: #44D8E7;
             .card-header {
               display: flex;
@@ -314,10 +315,19 @@ body{
               }
 
             }
-            .card-body{
+            .card-body {
               display: flex;
-              .card-img{
+               justify-content: space-between;
+              .body-grup {
+                display: flex;
+                align-items: center;
+              }
 
+              .card-img {
+                img {
+                  width: 80%;
+                transform: translateX(30px);
+                }
               }
             }
           }
