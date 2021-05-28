@@ -246,14 +246,36 @@ body {
   justify-content: space-between;
   padding-top: 20px;
 }
-.container-element .contet .container .container-body .container-body {
+.container-element .contet .container .container-body .card-grup {
   display: flex;
+  justify-content: space-between;
 }
-.container-element .contet .container .container-body .container-body .card {
+.container-element .contet .container .container-body .card-grup .card {
   background-color: #44D8E7;
 }
-.container-element .contet .container .container-body .container-body .card .card-header {
-  width: 30%;
+.container-element .contet .container .container-body .card-grup .card .card-header {
+  display: flex;
+}
+.container-element .contet .container .container-body .card-grup .card .card-header .card-radus {
+  padding: 8px;
+  height: 16px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 13px;
+  background-color: #123044;
+}
+.container-element .contet .container .container-body .card-grup .card .card-header .card-radus p {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.container-element .contet .container .container-body .card-grup .card .card-body {
+  display: flex;
 }
 
 /*# sourceMappingURL=main.css.map */
