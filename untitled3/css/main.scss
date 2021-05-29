@@ -291,7 +291,7 @@ body{
           display: flex;
           justify-content: space-between;
           .card {
-            width: 30%;
+            width: 32%;
             background-color: #44D8E7;
             .card-header {
               display: flex;
@@ -321,12 +321,21 @@ body{
               .body-grup {
                 display: flex;
                 align-items: center;
-              }
+                .text-body{
+                  p{
+                    font-size: 13px;
+                    line-height: 14px;
+                    color: #ffffff;
+                    font-weight: 400;
+                  }
 
+                }
+              }
               .card-img {
                 img {
+                  transform: translateX(33px);
                   width: 80%;
-                transform: translateX(30px);
+
                 }
               }
             }

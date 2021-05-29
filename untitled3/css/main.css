@@ -251,7 +251,7 @@ body {
   justify-content: space-between;
 }
 .container-element .contet .container .container-body .card-grup .card {
-  width: 30%;
+  width: 32%;
   background-color: #44D8E7;
 }
 .container-element .contet .container .container-body .card-grup .card .card-header {
@@ -283,9 +283,15 @@ body {
   display: flex;
   align-items: center;
 }
+.container-element .contet .container .container-body .card-grup .card .card-body .body-grup .text-body p {
+  font-size: 13px;
+  line-height: 14px;
+  color: #ffffff;
+  font-weight: 400;
+}
 .container-element .contet .container .container-body .card-grup .card .card-body .card-img img {
+  transform: translateX(33px);
   width: 80%;
-  transform: translateX(30px);
 }
 
 /*# sourceMappingURL=main.css.map */
