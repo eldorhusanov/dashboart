@@ -26,3 +26,27 @@ function add() {
 
     }
 }
+let card=document.getElementById('blok');
+let card2=document.getElementById('cardjs');
+function add1() {
+    if(card.style.display ==='flex'){
+        card.style.display='block';
+    }
+    else {
+        card.style.display='flex'
+
+    }
+}
+
+function add2() {
+    if(card2.style.display ==='flex'){
+        card2.style.display='block';
+    }
+    else {
+        card2.style.display='flex'
+
+    }
+}
+function add3() {
+    alert("salom")
+}
