@@ -11,7 +11,7 @@ body{
   margin-left: auto;
   justify-content: center;
   align-items: center;
-  padding: 6%;
+  padding: 4%;
   margin-right: auto;
 
   .contet {
@@ -270,7 +270,7 @@ body{
       }
 
       .container-body {
-        padding: 43px 20px 20px 20px;
+        padding: 30px 20px 20px 20px;
         width: 100%;
 
         .tab-class {
@@ -290,11 +290,16 @@ body{
         .card-grup {
           display: flex;
           justify-content: space-between;
+          .card-color{
+            background: linear-gradient(150deg, #59E7E4 10%, #02A8F3  90% ,  #59E7E4  100%);
+          }
           .card {
             position: relative;
             width: 32%;
-            background-color: #44D8E7;
+            height: 200px;
+
             .card-header {
+              margin-top: 20px;
               display: flex;
               .card-radus {
                 padding: 8px;
@@ -306,8 +311,8 @@ body{
                 border-radius: 13px;
                 background-color: #123044;
                 p {
-                  margin-left: 10px;
-                  font-size: 14px;
+                  margin-left: 5px;
+                  font-size: 12px;
                   line-height: 14px;
                   color: #ffffff;
                   font-weight: 400;
@@ -317,19 +322,31 @@ body{
             }
             .card-body {
               position: relative;
+              .card-footer{
+                top: 130px;
+                left: 10px;
+                position: absolute;
+                a{
+                  font-size: 13px;
+                  line-height: 14px;
+                  color: #ffffff;
+                  font-weight: 400;
+                }
+              }
               display: flex;
                justify-content: space-between;
               .body-grup {
+                margin-top: -15px;
                 display: flex;
                 align-items: center;
                 padding-left: 4px;
                 img{
                   border: solid 2px #84E1F2;
                   border-radius: 50%;
-                  margin-top: 10px;
                 }
                 .text-body{
-                  padding-left: 3px;
+                  position: absolute;
+                  left: 55px;
                   h4{
                     font-size: 20px;
                     line-height: 14px;
@@ -340,7 +357,7 @@ body{
                   }
                   p{
                     padding: 0;
-                    margin: 0;
+                    margin-top: 5px;
                     font-size: 13px;
                     line-height: 14px;
                     color: #ffffff;
@@ -350,23 +367,17 @@ body{
                 }
               }
               .card-img {
-
                 padding: 0;
                 margin: 0;
-                width: 40%;
-                img {
+                transform: translateX(10px);
+                .img1 {
+                 width: 100%;
+                  transform: translateY(-30px);
+
                 }
-              }
-            }
-            .card-footer{
-            top: 140px;
-              left: 10px;
-              position: absolute;
-              a{
-                font-size: 13px;
-                line-height: 14px;
-                color: #ffffff;
-                font-weight: 400;
+                img{
+                  width: 90%;
+                }
               }
             }
           }
