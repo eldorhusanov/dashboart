@@ -21,7 +21,7 @@ body{
     border-radius: 20px 20px 0 0;
     box-shadow: rgba(19, 89, 34, 0.11) 0 0 10px 10px;
     width: 100%;
-    height: 100%;
+    height: 90%;
 
     .footer-navbar {
       border-radius: 20px 20px 0 0;
@@ -291,6 +291,15 @@ body{
             display: flex;
             align-items: center;
             justify-content: space-between;
+            select{
+              width: 180px;
+            border: none;
+              outline: none;
+            }
+            hr{
+              margin: 0;
+              padding: 0;
+            }
              p{
                font-size: 14px;
                line-height: 14px;
@@ -339,7 +348,7 @@ body{
                font-size: 18px;
                line-height: 14px;
                color: #000000;
-               font-weight: 540;
+               font-weight: 500;
              }
            }
            button{
@@ -356,8 +365,10 @@ body{
              text-align: center;
            }
          }
+        .cardjs{
+          display: inline-block;
+        }
         .card-grup {
-
           display: flex;
           justify-content: space-between;
           .card-color{
