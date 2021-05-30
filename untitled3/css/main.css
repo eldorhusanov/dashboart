@@ -447,4 +447,10 @@ body {
   font-weight: 400;
 }
 
+@media only screen and (min-width: 1300px) {
+  .container-element {
+    padding: 10%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
