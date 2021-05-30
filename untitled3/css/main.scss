@@ -4,7 +4,8 @@
 }
 body{
   background-size: cover;
-  font-family: "Roboto";
+
+  font-family: 'Poppins', sans-serif;
   background-image: url("../img/f.png");
 
 }
@@ -230,7 +231,7 @@ body{
               font-size: 14px;
               line-height: 14px;
               color: #1d1d1d;
-              font-weight: bold;
+              font-weight: 500;
             }
 
             span {
@@ -253,13 +254,21 @@ body{
             display: flex;
             flex-direction: column;
 
-            a {
+            justify-content: center;
 
+            a {
+             margin-left: 33px;
               outline: none;
               text-decoration: none;
 
               p {
-                color: #1C1C1C;
+                font-size: 14px;
+                line-height: 14px;
+                color: #3a3a3a;
+                font-weight: 400;
+                padding-top: 15px;
+                margin: 0;
+
               }
 
               p:hover {
@@ -275,16 +284,39 @@ body{
         width: 100%;
        background-color: rgba(243, 247, 248, 0.78);
         .tab-class {
-
           width: 100%;
           height: 59px;
           background-color: #ffffff;
-
           .list-class-tap {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding-top: 20px;
+             p{
+               font-size: 14px;
+               line-height: 14px;
+               color: #3a3a3a;
+               font-weight: 400;
+               display: flex;
+               align-items: center;
+               border-bottom: solid 3px transparent;
+               height: 45px;
+             }
+            p:hover{
+              cursor: pointer;
+              border-bottom: solid 3px #F3A7C4;
+            }
+            .active2{
+              border-bottom: solid 3px #F3A7C4;
+            }
+
+             .button-img{
+               margin-right: 20px;
+               button{
+                 outline: none;
+                 background: none;
+                 border: none;
+               }
+             }
           }
         }
          .card-title {
@@ -292,13 +324,14 @@ body{
            display: flex;
            justify-content: space-between;
            .text-card {
+
              p {
-               margin-top: 40px;
-               margin-bottom: 6px;
+               margin-top: 50px;
+               margin-bottom: 8px;
                font-size: 14px;
                line-height: 14px;
                color: #000000;
-               font-weight: bold;
+               font-weight: 500;
              }
 
              h4 {
@@ -306,7 +339,7 @@ body{
                font-size: 18px;
                line-height: 14px;
                color: #000000;
-               font-weight: bold;
+               font-weight: 540;
              }
            }
            button{
@@ -510,7 +543,7 @@ body{
     }
   }
 }
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1600px) {
  .container-element{
    padding: 10%;
 
