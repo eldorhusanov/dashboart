@@ -3,11 +3,13 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url("../img/photo_2021-05-25_11-04-58.jpg");
+  background-size: cover;
   font-family: "Roboto";
+  background-image: url("../img/f.png");
+
 }
 .container-element {
-  display: flex;
+
   margin-left: auto;
   justify-content: center;
   align-items: center;
@@ -118,12 +120,11 @@ body{
     .container {
       display: flex;
       width: 100%;
-
       .sidebar {
         width: 18%;
         //width: 201px;
         height: 733px;
-        background-color: #F0F2F3;
+        background-color: rgba(249, 251, 252, 0.9);
 
         .admin-user {
           padding-top: 36px;
@@ -272,7 +273,7 @@ body{
       .container-body {
         padding: 30px 20px 20px 20px;
         width: 100%;
-
+       background-color: rgba(243, 247, 248, 0.78);
         .tab-class {
 
           width: 100%;
@@ -288,6 +289,7 @@ body{
         }
 
         .card-grup {
+
           display: flex;
           justify-content: space-between;
           .card-color{
@@ -397,38 +399,48 @@ body{
             }
           }
         }
-        .card{
-          width: 26%;
+        .card-grup2{
+          display: flex;
+          justify-content: space-between;
+        .card2 {
+          width: 24%;
           height: 139px;
           background: #ffffff;
+
           .card-button {
             display: flex;
+
             button {
               margin-left: auto;
               margin-right: 5px;
               margin-top: 5px;
               align-items: center;
-            background: none;
+              background: none;
               outline: none;
               border: none;
             }
           }
-          .card-body{
+
+          .card-body2 {
+            margin-left: 10px;
             display: flex;
-            img{
+
+            img {
               width: 56px;
               height: 56px;
               border-radius: 50%;
             }
-            .card-text{
-              h4{
+
+            .card-text2 {
+              h4 {
                 font-size: 14px;
                 line-height: 14px;
                 color: #3a3a3a;
                 font-weight: 500;
                 margin: 5px;
               }
-              p{
+
+              p {
                 font-size: 13px;
                 line-height: 14px;
                 color: #3a3a3a;
@@ -437,6 +449,27 @@ body{
               }
             }
           }
+
+          .img-user {
+            margin-top: 10px;
+            margin-left: 10px;
+            align-items: center;
+            display: flex;
+
+            img {
+              width: 29px;
+              height: 29px;
+              border-radius: 50%;
+            }
+
+            p {
+              font-size: 13px;
+              line-height: 14px;
+              color: #3a3a3a;
+              font-weight: 400;
+            }
+          }
+         }
         }
       }
     }

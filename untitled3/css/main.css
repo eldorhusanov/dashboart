@@ -3,12 +3,12 @@
 }
 
 body {
-  background-image: url("../img/photo_2021-05-25_11-04-58.jpg");
+  background-size: cover;
   font-family: "Roboto";
+  background-image: url("../img/f.png");
 }
 
 .container-element {
-  display: flex;
   margin-left: auto;
   justify-content: center;
   align-items: center;
@@ -109,7 +109,7 @@ body {
 .container-element .contet .container .sidebar {
   width: 18%;
   height: 733px;
-  background-color: #F0F2F3;
+  background-color: rgba(249, 251, 252, 0.9);
 }
 .container-element .contet .container .sidebar .admin-user {
   padding-top: 36px;
@@ -234,6 +234,7 @@ body {
 .container-element .contet .container .container-body {
   padding: 30px 20px 20px 20px;
   width: 100%;
+  background-color: rgba(243, 247, 248, 0.78);
 }
 .container-element .contet .container .container-body .tab-class {
   width: 100%;
@@ -352,15 +353,19 @@ body {
   width: 85%;
   transform: translateY(30px);
 }
-.container-element .contet .container .container-body .card {
-  width: 26%;
+.container-element .contet .container .container-body .card-grup2 {
+  display: flex;
+  justify-content: space-between;
+}
+.container-element .contet .container .container-body .card-grup2 .card2 {
+  width: 24%;
   height: 139px;
   background: #ffffff;
 }
-.container-element .contet .container .container-body .card .card-button {
+.container-element .contet .container .container-body .card-grup2 .card2 .card-button {
   display: flex;
 }
-.container-element .contet .container .container-body .card .card-button button {
+.container-element .contet .container .container-body .card-grup2 .card2 .card-button button {
   margin-left: auto;
   margin-right: 5px;
   margin-top: 5px;
@@ -369,27 +374,45 @@ body {
   outline: none;
   border: none;
 }
-.container-element .contet .container .container-body .card .card-body {
+.container-element .contet .container .container-body .card-grup2 .card2 .card-body2 {
+  margin-left: 10px;
   display: flex;
 }
-.container-element .contet .container .container-body .card .card-body img {
+.container-element .contet .container .container-body .card-grup2 .card2 .card-body2 img {
   width: 56px;
   height: 56px;
   border-radius: 50%;
 }
-.container-element .contet .container .container-body .card .card-body .card-text h4 {
+.container-element .contet .container .container-body .card-grup2 .card2 .card-body2 .card-text2 h4 {
   font-size: 14px;
   line-height: 14px;
   color: #3a3a3a;
   font-weight: 500;
   margin: 5px;
 }
-.container-element .contet .container .container-body .card .card-body .card-text p {
+.container-element .contet .container .container-body .card-grup2 .card2 .card-body2 .card-text2 p {
   font-size: 13px;
   line-height: 14px;
   color: #3a3a3a;
   font-weight: 400;
   margin: 5px;
+}
+.container-element .contet .container .container-body .card-grup2 .card2 .img-user {
+  margin-top: 10px;
+  margin-left: 10px;
+  align-items: center;
+  display: flex;
+}
+.container-element .contet .container .container-body .card-grup2 .card2 .img-user img {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+}
+.container-element .contet .container .container-body .card-grup2 .card2 .img-user p {
+  font-size: 13px;
+  line-height: 14px;
+  color: #3a3a3a;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=main.css.map */
