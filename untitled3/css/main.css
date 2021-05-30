@@ -12,7 +12,7 @@ body {
   margin-left: auto;
   justify-content: center;
   align-items: center;
-  padding: 197px;
+  padding: 4%;
   margin-right: auto;
 }
 .container-element .contet {
@@ -251,19 +251,27 @@ body {
   justify-content: space-between;
 }
 .container-element .contet .container .container-body .card-grup .card-color {
+  opacity: 0.8;
   background: linear-gradient(150deg, #59E7E4 10%, #02A8F3 90%, #59E7E4 100%);
+}
+.container-element .contet .container .container-body .card-grup .card-color2 {
+  opacity: 0.8;
+  background: linear-gradient(150deg, #ccb5fe 40%, #1c0eff 90%);
+}
+.container-element .contet .container .container-body .card-grup .card-color3 {
+  background: linear-gradient(150deg, #3C9AFC 10%, #3C60FD 90%, #59E7E4 100%);
 }
 .container-element .contet .container .container-body .card-grup .card {
   position: relative;
   width: 32%;
-  height: 200px;
+  height: 180px;
 }
 .container-element .contet .container .container-body .card-grup .card .card-header {
   margin-top: 20px;
   display: flex;
 }
 .container-element .contet .container .container-body .card-grup .card .card-header .card-radus {
-  padding: 8px;
+  padding: 10px;
   height: 16px;
   margin-left: 10px;
   display: flex;
@@ -285,7 +293,7 @@ body {
   justify-content: space-between;
 }
 .container-element .contet .container .container-body .card-grup .card .card-body .card-footer {
-  top: 130px;
+  top: 110px;
   left: 10px;
   position: absolute;
 }
@@ -296,7 +304,7 @@ body {
   font-weight: 400;
 }
 .container-element .contet .container .container-body .card-grup .card .card-body .body-grup {
-  margin-top: -15px;
+  margin-top: -30px;
   display: flex;
   align-items: center;
   padding-left: 4px;
@@ -328,14 +336,21 @@ body {
 .container-element .contet .container .container-body .card-grup .card .card-body .card-img {
   padding: 0;
   margin: 0;
-  transform: translateX(10px);
+  transform: translateY(-30px);
+  opacity: 0.8;
 }
 .container-element .contet .container .container-body .card-grup .card .card-body .card-img .img1 {
-  width: 100%;
-  transform: translateY(-30px);
-}
-.container-element .contet .container .container-body .card-grup .card .card-body .card-img img {
   width: 90%;
+  transform: translateX(20px);
+}
+.container-element .contet .container .container-body .card-grup .card .card-body .card-img .img2 {
+  transform: translateX(24px);
+  width: 90%;
+  opacity: 1;
+}
+.container-element .contet .container .container-body .card-grup .card .card-body .card-img .img3 {
+  width: 85%;
+  transform: translateY(30px);
 }
 
 /*# sourceMappingURL=main.css.map */
