@@ -296,7 +296,7 @@ body{
           .card {
             position: relative;
             width: 32%;
-            height: 200px;
+            height: 20%;
 
             .card-header {
               margin-top: 20px;
@@ -348,7 +348,7 @@ body{
                   position: absolute;
                   left: 55px;
                   h4{
-                    font-size: 20px;
+                    font-size: 2vw;
                     line-height: 14px;
                     color: #ffffff;
                     font-weight: 500;
@@ -357,8 +357,8 @@ body{
                   }
                   p{
                     padding: 0;
-                    margin-top: 5px;
-                    font-size: 13px;
+                    margin-top: 1vw;
+                    font-size: 1.3vw;
                     line-height: 14px;
                     color: #ffffff;
                     font-weight: 400;
